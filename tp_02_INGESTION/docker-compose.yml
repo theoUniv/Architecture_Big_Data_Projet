@@ -54,8 +54,8 @@ services:
     container_name: kbo-namenode
     restart: always
     ports:
-      - "9870:9870"   # Interface Web (http://localhost:9870)
-      - "9000:9000"   # Port RPC Hadoop
+      - "9864:9864"
+      - "9865:9865"
     environment:
       - CLUSTER_NAME=kbo-hdfs
     env_file:

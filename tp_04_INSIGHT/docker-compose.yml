@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  tor1:
+    image: dperson/torproxy
+    environment:
+      - TOR_ControlPort=9051
+      - TOR_HashedControlPassword=  # Laissez vide si pas de mot de passe
+    ports:
+      - "9050:9050"   # Proxy SOCKS5
+      - "9051:9051"   # Port de contrôle Stem
+
+  tor2:
+    image: dperson/torproxy
+    environment:
+      - TOR_ControlPort=9051
+    ports:
+      - "9052:9050"   # Redirige le SOCKS5 sur 9052
+      - "9053:9051"   # Redirige le ControlPort sur 9053
+
+  tor3:
+    image: dperson/torproxy
+    environment:
+      - TOR_ControlPort=9051
+    ports:
+      - "9054:9050"   # Redirige le SOCKS5 sur 9054
+      - "9055:9051"   # Redirige le ControlPort sur 9055
