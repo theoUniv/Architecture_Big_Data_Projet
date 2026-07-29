@@ -1,0 +1,13 @@
+# Ignorer le dossier contenant les gros fichiers CSV
+data/
+
+# Ignorer l'environnement virtuel Python
+.venv/
+venv/
+__pycache__/
+
+# Ignorer les checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorer les fichiers système (si tu es sur Mac)
+.DS_Store

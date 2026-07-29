@@ -1,0 +1,80 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: kbo-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  jupyter:
+    image: jupyter/base-notebook:latest
+    container_name: kbo-jupyter
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_TOKEN=kbo_admin
+    volumes:
+      - .:/home/jovyan/work
+      - ./data:/data/kbo:ro
+    depends_on:
+      - mongodb
+      - tor1
+      - tor2
+      - tor3
+      - namenode
+
+  # --- MULTIPLES INSTANCES TOR ---
+  tor1:
+    image: osminogin/tor-simple:latest
+    container_name: kbo-tor1
+    ports:
+      - "9050:9050"
+      - "9051:9051"
+
+  tor2:
+    image: osminogin/tor-simple:latest
+    container_name: kbo-tor2
+    ports:
+      - "9052:9050"
+      - "9053:9051"
+
+  tor3:
+    image: osminogin/tor-simple:latest
+    container_name: kbo-tor3
+    ports:
+      - "9054:9050"
+      - "9055:9051"
+
+  # --- CLUSTER HDFS (Namenode + Datanode) ---
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: kbo-namenode
+    restart: always
+    ports:
+      - "9870:9870"   # Interface Web (http://localhost:9870)
+      - "9000:9000"   # Port RPC Hadoop
+    environment:
+      - CLUSTER_NAME=kbo-hdfs
+    env_file:
+      - ./hadoop.env
+    volumes:
+      - hdfs_namenode:/hadoop/dfs/name
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: kbo-datanode
+    restart: always
+    depends_on:
+      - namenode
+    env_file:
+      - ./hadoop.env
+    volumes:
+      - hdfs_datanode:/hadoop/dfs/data
+
+volumes:
+  mongo_data:
+  hdfs_namenode:
+  hdfs_datanode:
