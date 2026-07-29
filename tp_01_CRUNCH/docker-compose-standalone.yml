@@ -1,0 +1,65 @@
+services:
+  spark-master:
+    image: apache/spark:3.5.1
+    user: root
+    working_dir: /opt/spark
+    command: ["/bin/bash", "-lc", "./sbin/start-master.sh && tail -f /opt/spark/logs/spark-*-org.apache.spark.deploy.master.Master-*.out"]
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    environment:
+      - SPARK_MASTER_HOST=spark-master
+      - SPARK_LOCAL_IP=spark-master
+      - SPARK_RAW_ROOT=/opt/spark/data/raw
+      - SPARK_OUTPUT_ROOT=/opt/spark/data/out
+    volumes:
+      - ./jobs:/opt/spark/jobs
+      - ./data:/opt/spark/data
+
+  spark-worker:
+    image: apache/spark:3.5.1
+    user: root
+    working_dir: /opt/spark
+    command: ["/bin/bash", "-lc", "./sbin/start-worker.sh spark://spark-master:7077 && tail -f /opt/spark/logs/spark-*-org.apache.spark.deploy.worker.Worker-*.out"]
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=2g
+      - SPARK_RAW_ROOT=/opt/spark/data/raw
+      - SPARK_OUTPUT_ROOT=/opt/spark/data/out
+    depends_on:
+      - spark-master
+    volumes:
+      - ./jobs:/opt/spark/jobs
+      - ./data:/opt/spark/data
+
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    ports:
+      - "8085:8085"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning
+
+  spark-history:
+    image: apache/spark:3.5.1
+    working_dir: /opt/spark
+    command: ["/bin/bash", "-lc", "./sbin/start-history-server.sh && tail -f /opt/spark/logs/spark-*-org.apache.spark.deploy.history.HistoryServer-*.out"]
+    ports:
+      - "18080:18080"

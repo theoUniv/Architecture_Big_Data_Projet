@@ -1,0 +1,7 @@
+data/
+\!data/out/
+\!data/out/**
+
+# Spark TP
+data/raw/
+26/
