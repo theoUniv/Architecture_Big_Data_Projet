@@ -68,5 +68,689 @@
         "details": {
             "csv_count": 0
         }
+    },
+    "0201712587": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:20:14.023894",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0201717438": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:20:19.695200",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0202470177": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:21:15.296596",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0202500267": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:21:15.904947",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0203375148": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:21:50.226541",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0205970788": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:23:19.154827",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0207165769": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:23:44.538324",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0208040551": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:23:45.295104",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0213894205": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:24:20.419893",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0213897173": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:24:25.415660",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0214014167": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:24:29.920844",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0214015751": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:24:34.762039",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0215362368": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:25:10.858130",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0218843678": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:25:42.547823",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0218993039": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:25:47.979345",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0219802592": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:26:20.018881",
+        "details": {
+            "csv_count": 6
+        }
+    },
+    "0219805958": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:26:25.478795",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0240365703": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:27:16.665847",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400003551": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:28:03.909197",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400010875": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:28:07.874108",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400041163": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:29:04.515784",
+        "details": {
+            "csv_count": 3
+        }
+    },
+    "0400066701": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:30:09.527531",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400078181": {
+        "status": "ERROR",
+        "timestamp": "2026-07-29T10:49:08.914250",
+        "details": {
+            "error_message": "SOCKSHTTPSConnectionPool(host='consult.cbso.nbb.be', port=443): Read timed out. (read timeout=15)"
+        }
+    },
+    "0400083725": {
+        "status": "ERROR",
+        "timestamp": "2026-07-29T10:52:53.231125",
+        "details": {
+            "error_message": "SOCKSHTTPSConnectionPool(host='consult.cbso.nbb.be', port=443): Max retries exceeded with url: /consult-enterprise/0400083725 (Caused by ConnectTimeoutError(<SOCKSHTTPSConnection(host='consult.cbso.nbb.be', port=443) at 0x3362e6160>, 'Connection to consult.cbso.nbb.be timed out. (connect timeout=10)'))"
+        }
+    },
+    "0400087782": {
+        "status": "ERROR",
+        "timestamp": "2026-07-29T10:53:03.244861",
+        "details": {
+            "error_message": "SOCKSHTTPSConnectionPool(host='consult.cbso.nbb.be', port=443): Max retries exceeded with url: /consult-enterprise/0400087782 (Caused by ConnectTimeoutError(<SOCKSHTTPSConnection(host='consult.cbso.nbb.be', port=443) at 0x3362cb5e0>, 'Connection to consult.cbso.nbb.be timed out. (connect timeout=10)'))"
+        }
+    },
+    "0400090455": {
+        "status": "ERROR",
+        "timestamp": "2026-07-29T10:53:03.734947",
+        "details": {
+            "error_message": "SOCKSHTTPSConnectionPool(host='consult.cbso.nbb.be', port=443): Max retries exceeded with url: /consult-enterprise/0400090455 (Caused by NewConnectionError(\"SOCKSHTTPSConnection(host='consult.cbso.nbb.be', port=443): Failed to establish a new connection: 0x01: General SOCKS server failure\"))"
+        }
+    },
+    "0400098274": {
+        "status": "ERROR",
+        "timestamp": "2026-07-29T10:53:27.138236",
+        "details": {
+            "error_message": "SOCKSHTTPSConnectionPool(host='consult.cbso.nbb.be', port=443): Max retries exceeded with url: /consult-enterprise/0400098274 (Caused by ConnectTimeoutError(<SOCKSHTTPSConnection(host='consult.cbso.nbb.be', port=443) at 0x33627fa30>, 'Connection to consult.cbso.nbb.be timed out. (connect timeout=10)'))"
+        }
+    },
+    "0400102531": {
+        "status": "ERROR",
+        "timestamp": "2026-07-29T10:53:37.148937",
+        "details": {
+            "error_message": "SOCKSHTTPSConnectionPool(host='consult.cbso.nbb.be', port=443): Max retries exceeded with url: /consult-enterprise/0400102531 (Caused by ConnectTimeoutError(<SOCKSHTTPSConnection(host='consult.cbso.nbb.be', port=443) at 0x3362e6b50>, 'Connection to consult.cbso.nbb.be timed out. (connect timeout=10)'))"
+        }
+    },
+    "0400110449": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:53:51.772433",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400120248": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:54:03.970331",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400124208": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:54:09.546877",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400162909": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:55:28.899678",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400186168": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:56:18.235572",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400191316": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:56:24.022646",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400208340": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:57:09.848496",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400208439": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:57:15.034632",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400208934": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:57:20.006319",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400209528": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:57:20.876752",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400213585": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:57:40.355715",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400216852": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:57:50.185541",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400219525": {
+        "status": "HTTP_502",
+        "timestamp": "2026-07-29T10:58:03.806744",
+        "details": {}
+    },
+    "0400220218": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:58:08.153732",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400220317": {
+        "status": "HTTP_502",
+        "timestamp": "2026-07-29T10:58:08.813822",
+        "details": {}
+    },
+    "0400221802": {
+        "status": "HTTP_502",
+        "timestamp": "2026-07-29T10:58:09.517244",
+        "details": {}
+    },
+    "0400222889": {
+        "status": "HTTP_502",
+        "timestamp": "2026-07-29T10:58:16.915271",
+        "details": {}
+    },
+    "0400224671": {
+        "status": "HTTP_502",
+        "timestamp": "2026-07-29T10:58:19.283284",
+        "details": {}
+    },
+    "0400224770": {
+        "status": "HTTP_502",
+        "timestamp": "2026-07-29T10:58:20.944723",
+        "details": {}
+    },
+    "0400225760": {
+        "status": "HTTP_502",
+        "timestamp": "2026-07-29T10:58:22.277417",
+        "details": {}
+    },
+    "0400226552": {
+        "status": "HTTP_502",
+        "timestamp": "2026-07-29T10:58:25.992242",
+        "details": {}
+    },
+    "0400228334": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:58:39.061347",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400229819": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:58:53.047097",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400234272": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:03.527092",
+        "details": {
+            "csv_count": 3
+        }
+    },
+    "0400234866": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:08.075605",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400234965": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:13.028326",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400235163": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:14.104930",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400236153": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:15.193671",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400236945": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:20.082694",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400238430": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:25.134352",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400243675": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:32.047770",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400245556": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T10:59:51.354290",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400246645": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:00:08.413197",
+        "details": {
+            "csv_count": 3
+        }
+    },
+    "0400248229": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:00:09.486306",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400248328": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:00:15.655938",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400248526": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:00:22.307100",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400250704": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:00:33.109191",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400251001": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:00:37.117613",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400252979": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:05.138955",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400253969": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:10.436802",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400254464": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:24.572047",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400254860": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:30.864748",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400256840": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:39.531516",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400257236": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:44.536643",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400257533": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:45.153774",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400257830": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:47.805771",
+        "details": {
+            "csv_count": 2
+        }
+    },
+    "0400257929": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:01:51.870251",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400260996": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:02:11.813164",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400264263": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:02:19.112826",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400266243": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:02:25.914280",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400267431": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:02:39.418394",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400269510": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:05.806853",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400270696": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:09.572778",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400271290": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:14.162219",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400271884": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:17.687422",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400272379": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:31.123615",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400273864": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:31.867385",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400274161": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:35.861558",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400276339": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:50.282526",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400276735": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:54.359287",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400277032": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:03:58.536801",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400277329": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:04:03.363128",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400278022": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:04:03.912174",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400278121": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:04:04.400649",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400278319": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:04:08.314225",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400278715": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:04:11.777406",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400278913": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:04:15.679753",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400280101": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:04:19.730465",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400281089": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:04:20.246746",
+        "details": {
+            "csv_count": 0
+        }
+    },
+    "0400283960": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:05:08.051693",
+        "details": {
+            "csv_count": 5
+        }
+    },
+    "0400284059": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:05:11.388851",
+        "details": {
+            "csv_count": 4
+        }
+    },
+    "0400285148": {
+        "status": "SUCCESS",
+        "timestamp": "2026-07-29T11:05:19.393143",
+        "details": {
+            "csv_count": 0
+        }
     }
 }
